@@ -1,0 +1,30 @@
+
+Python Crash course book - Chapter 7 - Pizza Topping
+
+Code:
+
+inputs =  "\nEnter the topping you want to add"
+inputs += "\nEnter quit if you are done "
+
+while True:
+    topping = input(inputs)
+    if topping != 'quit':
+        print("  I'll add " + topping + " to your pizza.")
+    else:
+        print("user entered quit")
+        break
+
+
+Output:
+
+Enter the topping you want to add
+Enter quit if you are done Onion
+  I'll add Onion to your pizza.
+
+Enter the topping you want to add
+Enter quit if you are done Cheese
+  I'll add Cheese to your pizza.
+
+Enter the topping you want to add
+Enter quit if you are done quit
+user entered quit
