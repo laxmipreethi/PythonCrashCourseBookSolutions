@@ -1,0 +1,18 @@
+Python Crash course book - Chapter 7 - Restaurent Seating
+
+Code:
+
+People = int(input("How many people are in your group?"))
+if People >=8 :  
+print("Please wait for the table")
+else:  
+print(f"Table 1 for {People} is ready")
+
+
+Output:
+
+How many people are in your group?10
+Please wait for the table
+
+How many people are in your group?7
+Table 1 for 7 is ready
