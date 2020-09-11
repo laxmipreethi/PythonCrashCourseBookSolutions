@@ -1,0 +1,28 @@
+Python Crash course book - Chapter 7 - Movie Ticket
+
+Code:
+
+age = input("Enter your age ")
+while True:
+  age = int(age)
+  if age < 3:
+    print("Ticket is free")
+    break
+  elif age < 13 :
+    print("Your ticket price is $10")
+    break
+  else:
+    print("Your ticket price is $12")
+    break
+    
+Output:
+
+Enter your age 10
+Your ticket price is $10
+
+Enter your age 15
+Your ticket price is $12
+
+Enter your age 1
+Ticket is free
+
