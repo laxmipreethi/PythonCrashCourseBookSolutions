@@ -1,0 +1,15 @@
+#################################################
+Python Crash course book - Chapter 7 - Rental Car
+#################################################
+
+###########.  Code ##########
+
+Car = input("Enter your preferred rental car brand")
+print(f"Let me see if I can find you a {Car}!")
+
+
+
+###########  Output #########
+
+Enter your preferred rental car brandHonda
+Let me see if I can find you a Honda!
